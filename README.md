@@ -1,70 +1,48 @@
-# Getting Started with Create React App
+Movie Finder App
+Overview
+•	The Movie Finder App is a simple React application that allows users to search for movies using the Open Movie Database (OMDb) API. Users can enter a movie title in the search bar, click the search icon, and view a list of matching movies. The app displays basic information about each movie, and users can click on individual movie cards for more details.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Features
+1.	Search Movies: Users can enter a movie title in the search bar and click the search icon to find matching movies.
+2.	Display Movie Results: The app displays a list of movies matching the search query, including basic information about each movie.
+3.	Handle No Results: If no movies are found for the given search term, the app displays a message indicating that no such movie exists.
+4.	Responsive Design: The app is designed to be responsive, providing a seamless experience on various devices.
+5.	Technologies Used
+6.	React: The app is built using the React library, allowing for the creation of dynamic and interactive user interfaces.
+7.	useState and useEffect Hooks: React hooks are used to manage state and side effects, ensuring efficient and reactive updates to the UI.
+8.	Fetch API: The fetch function is utilized to make asynchronous requests to the OMDb API and retrieve movie data.
+Getting Started
+To run the Movie Finder App locally, follow these steps:
 
-## Available Scripts
+Clone the repository:
 
-In the project directory, you can run:
+1.	bash
+2.	Copy code
+3.	git clone [repository_url]
+Install dependencies:
 
-### `npm start`
+1.	bash
+2.	Copy code
+3.	cd [project_directory]
+4.	npm install
+5.	Obtain an API key from the OMDb API and replace the placeholder API key in the API_URL constant within the App.js file.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Start the development server:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+1.	bash
+2.	Copy code
+3.	npm start
+4.	The app will be accessible at http://localhost:3000 in your web browser.
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Usage
+1.	Enter a movie title in the search bar.
+2.	Click the search icon to initiate the search.
+3.	View the list of matching movies.
+4.	Click on individual movie cards to see more details.
+Issues and Limitations
+1.	The app relies on the OMDb API, and therefore, it requires an internet connection to fetch movie data.
+2.	The current design may not handle edge cases or errors gracefully.
+Future Improvements
+1.	Implement error handling for failed API requests.
+2.	Enhance the user interface with additional features and information.
+3.	Incorporate user authentication and save favorite movies for each user.
