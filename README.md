@@ -2,6 +2,8 @@ Movie Finder App
 
 
 Overview
+
+
 •	The Movie Finder App is a simple React application that allows users to search for movies using the Open Movie Database (OMDb) API. Users can enter a movie title in the search bar, click the search icon, and view a list of matching movies. The app displays basic information about each movie, and users can click on individual movie cards for more details.
 
 Features
